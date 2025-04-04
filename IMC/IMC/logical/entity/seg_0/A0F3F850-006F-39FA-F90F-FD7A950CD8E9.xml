@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0F3F850-006F-39FA-F90F-FD7A950CD8E9" name="IndiceMassaCorporal">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 22:54:53 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>IMC</preferredAbbreviation>
+<shortName>IndiceMassaCorporal</shortName>
+<synonym>IndiceMassaCorporal</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DataIMC" id="E7F86DCF-3E24-7EC7-8CA9-6AE1210D4F3C">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 23:05:06 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMC" id="283E14D9-9372-24A3-C23C-B341D5380704">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 23:05:20 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NivelObesidade" id="772F3CFC-CB1A-A76C-69C7-F52DEC93935F">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 23:07:09 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

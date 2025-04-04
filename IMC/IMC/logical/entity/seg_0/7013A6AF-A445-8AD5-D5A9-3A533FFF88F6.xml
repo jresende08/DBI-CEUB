@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7013A6AF-A445-8AD5-D5A9-3A533FFF88F6" name="Cliente">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 22:47:46 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CLT</preferredAbbreviation>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="D57AA0D8-8E09-D3D7-809A-139F25461991">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 22:50:13 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="5608203E-5BDE-5782-1A74-D59AE976093C">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 22:50:33 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="28EF46AA-CF05-1254-6996-20E39CF044F0">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 22:50:48 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="6FF8056C-B4F6-ABA3-083E-328773ED49C4">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 22:51:21 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="36710DF2-CAE3-8D57-8684-8537F326484A">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-04-03 22:51:31 UTC</createdTime>
+<ownerDesignName>IMC</ownerDesignName>
+<engineerTo>
+<item key="08723893-6A11-D8D3-D669-F58650532EF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
