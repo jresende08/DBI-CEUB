@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E12CDB93-171A-19C7-D5C7-B051772163EA" name="PetShop">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:07:16 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>psp</preferredAbbreviation>
+<shortName>PetShop</shortName>
+<synonym>PetShop</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="razaoSocial" id="D58B6D65-6390-B5D0-2DBA-1F7EDFB69A68">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:14:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da empresa do sistema tributario]]></commentInRDBMS>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="DE3AA919-B593-E7E1-FBDA-CE9869602CE7">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:19:12 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="846CEE8B-5871-B31C-F7CC-5FADD38BA30A">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:19:45 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="CE23C945-79D8-3C1C-9DAE-13B2958B6991">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:21:00 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="EB0B78FF-753D-F270-6D00-AB5946BC2869">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:21:05 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inscricaoEstadual" id="63D0E87F-C933-E0DE-4F23-6F4002F7C53F">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:22:07 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioFuncionamento" id="5F215D0B-AE2E-338A-4A0C-37B0669AFE15">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:22:51 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atividade" id="F961C0CB-2229-C42E-A1DB-0424825820AA">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:25:16 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

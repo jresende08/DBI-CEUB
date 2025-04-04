@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAE98443-7093-95F3-DEB2-BF3AB85327C9" name="cliente">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:26:13 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>clt</preferredAbbreviation>
+<shortName>cliente</shortName>
+<synonym>cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="5A57D430-209A-91C0-9EAB-2D683070F3FA">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:30:31 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="06E1A0DF-95AF-6EA6-75E1-DF3F12F5F4CE">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:30:42 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="19A1B605-64F8-DE6B-E8CB-15768DB72404">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:34:21 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="BE622C8A-B4F1-9D71-0F73-ED6E6E9F5D17">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:34:39 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="540A2BAE-C5B8-FD80-15D1-832432F537D8">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:35:11 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="0CB5ABF0-8180-219F-78F9-8546D52BA41B">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:35:35 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tutor" id="0798A804-3664-85FE-8A15-332396381DB4">
+<createdBy>resende.joao</createdBy>
+<createdTime>2025-03-27 23:36:55 UTC</createdTime>
+<ownerDesignName>aula</ownerDesignName>
+<engineerTo>
+<item key="5B8305ED-44F3-4E02-53DE-1CA2208BE243" value="true"/>
+<item key="F52078D1-CF57-1624-1F00-FBB4A6D882DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
