@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A7CD633-9CAA-61A7-2B52-CDEC8F45230E" name="Mensalidade">
+<createdBy>Joao Vitor</createdBy>
+<createdTime>2025-05-15 23:54:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7C5A583-2915-DC7B-FF48-8FD6EC84B788" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Mensalidade</shortName>
+<synonym>Mensalidade</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mensalidade" id="8A989142-CA79-9B39-7EC3-3FABFA840F23">
+<createdBy>Joao Vitor</createdBy>
+<createdTime>2025-05-15 23:55:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7C5A583-2915-DC7B-FF48-8FD6EC84B788" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="associado" id="B4228045-1032-C354-15C7-C8A4A252B544">
+<createdBy>Joao Vitor</createdBy>
+<createdTime>2025-05-15 23:55:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7C5A583-2915-DC7B-FF48-8FD6EC84B788" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="competencia" id="1D3D0DB6-417C-39DF-98CF-2C9D31D05FDF">
+<createdBy>Joao Vitor</createdBy>
+<createdTime>2025-05-15 23:55:37 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7C5A583-2915-DC7B-FF48-8FD6EC84B788" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="5886AA19-3B9F-E96C-0019-9BE2E857675E">
+<createdBy>Joao Vitor</createdBy>
+<createdTime>2025-05-15 23:55:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7C5A583-2915-DC7B-FF48-8FD6EC84B788" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_pagamento" id="07228DAF-A8F5-6F36-FBD7-23C888BFD39E">
+<createdBy>Joao Vitor</createdBy>
+<createdTime>2025-05-15 23:55:50 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7C5A583-2915-DC7B-FF48-8FD6EC84B788" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_pagamento" id="17CACE3A-FCDB-2C66-0923-A3BCF706F5CA">
+<createdBy>Joao Vitor</createdBy>
+<createdTime>2025-05-15 23:56:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7C5A583-2915-DC7B-FF48-8FD6EC84B788" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
